@@ -5,5 +5,5 @@ def postTaxPrice(price):
 
 
 print(postTaxPrice(120),"円")
-print(postTaxPrice(120),"円")
+print(postTaxPrice(128),"円")
 print(postTaxPrice(980),"円")
