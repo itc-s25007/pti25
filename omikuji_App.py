@@ -12,11 +12,12 @@ def displabel():
     lbl.configure(text = omikuji())
 
 root = tk.Tk()
+root.title("おみくじアプリ")
 root.geometry("200x100")
 
 lbl = tk.Label(text="LABEL")
 btn = tk.Button(text="おみくじ", command = displabel)
 
-lbl.pack()
 btn.pack()
+lbl.pack()
 tk.mainloop()
